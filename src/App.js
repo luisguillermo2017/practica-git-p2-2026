@@ -1,13 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Titulo from './components/Titulo';
+import Subtitlo from './components/Subtitlo';
 
 function App() {
+
+  const valorTituloFIFA = "Pagina oficial para el mundial de la FIFA 2026";
+  const valorSubtitulo = "Bienvenidos!";
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <Titulo titulo={valorTituloFIFA}/>
+          
         </p>
         <a
           className="App-link"
@@ -16,6 +23,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Hola Mundo Desde develop_emanuel
+          <Subtitlo subitulo={valorSubtitulo} />
           Hola mundo desde la rama de Luis
         </a>
       </header>
