@@ -6,7 +6,7 @@ import Subtitlo from './components/Subtitlo';
 function App() {
 
   const valorTituloFIFA = "Pagina oficial para el mundial de la FIFA 2026";
-  const valorSubtitulo = "Bienvenid@s!";
+  const valorSubtitulo = "Bienvenidosssss!";
 
   return (
     <div className="App">
